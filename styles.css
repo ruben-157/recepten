@@ -1,12 +1,15 @@
 :root {
-  --bg: #f4f1ea;
-  --paper: #fffdf7;
-  --ink: #1e1b16;
-  --muted: #6f655a;
-  --accent: #b64a2b;
-  --accent-soft: #f1d4c9;
-  --border: #e2d7c9;
-  --shadow: rgba(30, 27, 22, 0.08);
+  --bg: #f6f7fb;
+  --paper: #ffffff;
+  --ink: #0f1419;
+  --muted: #5b6670;
+  --accent: #1f6feb;
+  --accent-soft: #e7f0ff;
+  --border: #e3e7ee;
+  --shadow: rgba(15, 20, 25, 0.06);
+
+  --font-body: "Work Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: "Space Grotesk", "Work Sans", system-ui, sans-serif;
 
   --space-1: 6px;
   --space-2: 10px;
@@ -17,14 +20,14 @@
 
   --text-sm: 0.9rem;
   --text-base: 1rem;
-  --text-md: 1.1rem;
-  --text-lg: 1.35rem;
-  --text-xl: 1.6rem;
-  --text-2xl: 2.2rem;
-  --text-3xl: 2.8rem;
+  --text-md: 1.08rem;
+  --text-lg: 1.3rem;
+  --text-xl: 1.55rem;
+  --text-2xl: 2rem;
+  --text-3xl: 2.5rem;
 
   --radius: 14px;
-  --line: 1.7;
+  --line: 1.65;
   --sidebar-width: 320px;
 }
 
@@ -34,11 +37,11 @@
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: var(--font-body);
   font-size: var(--text-base);
   line-height: var(--line);
   color: var(--ink);
-  background: radial-gradient(circle at top, #fff8ef 0%, #f4f1ea 45%, #efe6db 100%);
+  background: radial-gradient(circle at top, #ffffff 0%, #f6f7fb 45%, #eef1f6 100%);
 }
 
 .app {
@@ -53,7 +56,7 @@ body {
   height: 100vh;
   overflow-y: auto;
   padding: var(--space-4);
-  background: linear-gradient(180deg, #fff7ec 0%, #f7efe3 65%, #f1e6d8 100%);
+  background: #fbfcfe;
   border-right: 1px solid var(--border);
   box-shadow: 6px 0 20px var(--shadow);
 }
@@ -76,9 +79,10 @@ body {
 }
 
 .sidebar h1 {
+  font-family: var(--font-display);
   font-size: var(--text-xl);
   margin: 0;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.3px;
 }
 
 .sidebar-toggle {
@@ -112,7 +116,7 @@ body {
   padding: var(--space-2) var(--space-3);
   border-radius: 999px;
   border: 1px solid var(--border);
-  background: var(--paper);
+  background: #f9fbff;
   font-size: var(--text-base);
 }
 
@@ -135,19 +139,18 @@ body {
   text-decoration: none;
   color: inherit;
   border: 1px solid transparent;
-  transition: transform 0.15s ease, background 0.15s ease, border-color 0.15s ease;
+  transition: background 0.15s ease, border-color 0.15s ease;
 }
 
 .menu a:hover {
-  transform: translateX(4px);
-  background: var(--paper);
+  background: #f3f6fb;
   border-color: var(--border);
 }
 
 .menu a.active {
   background: var(--accent-soft);
   border-color: var(--accent);
-  color: #3a1b10;
+  color: #1247b2;
   font-weight: 600;
 }
 
@@ -165,7 +168,8 @@ body {
   width: 100%;
   background: var(--paper);
   padding: var(--space-6);
-  border-radius: calc(var(--radius) + 6px);
+  border-radius: calc(var(--radius) + 4px);
+  border: 1px solid var(--border);
   box-shadow: 0 20px 40px var(--shadow);
   animation: floatIn 0.5s ease;
 }
@@ -182,7 +186,7 @@ body {
   gap: var(--space-2);
   padding: var(--space-2) var(--space-3);
   border-radius: 999px;
-  background: #fff3e6;
+  background: #f3f6fb;
   border: 1px solid var(--border);
   font-size: var(--text-sm);
 }
@@ -241,6 +245,8 @@ body {
 .markdown-body h2,
 .markdown-body h3,
 .markdown-body h4 {
+  font-family: var(--font-display);
+  font-weight: 600;
   line-height: 1.2;
   margin: var(--space-5) 0 var(--space-2);
 }
@@ -274,10 +280,10 @@ body {
 .markdown-body blockquote {
   margin: var(--space-4) 0;
   padding: var(--space-3) var(--space-4);
-  background: #fff3e6;
+  background: #f3f6fb;
   border-left: 4px solid var(--accent);
   border-radius: var(--radius);
-  color: #4d3b2f;
+  color: #2f3b48;
 }
 
 .markdown-body pre {
@@ -292,14 +298,14 @@ body {
 .markdown-body code {
   font-family: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-size: 0.92em;
-  background: #f7efe5;
+  background: #f1f4f9;
   padding: 0 4px;
   border-radius: 6px;
 }
 
 .markdown-body .qty {
   font-weight: 600;
-  color: #3a1b10;
+  color: #1247b2;
 }
 
 .markdown-body pre code {
@@ -322,7 +328,7 @@ body {
 }
 
 .markdown-body thead {
-  background: #f3eadf;
+  background: #f1f4f9;
 }
 
 .markdown-body hr {
@@ -341,8 +347,8 @@ body {
 }
 
 .error-box {
-  border: 1px solid #e0b4a8;
-  background: #fff1ed;
+  border: 1px solid #f3b8ad;
+  background: #fff2ef;
   padding: var(--space-4);
   border-radius: var(--radius);
 }
@@ -365,7 +371,7 @@ input:focus-visible {
     gap: var(--space-3);
     padding: var(--space-2) var(--space-3);
     margin-bottom: var(--space-4);
-    background: #fff7ec;
+    background: #fbfcfe;
     border: 1px solid var(--border);
     border-radius: var(--radius);
     box-shadow: 0 10px 20px var(--shadow);
