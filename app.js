@@ -116,6 +116,10 @@ function getServingsEnabled(meta) {
   return parsed !== null ? parsed : true;
 }
 
+function getAuthor(meta) {
+  return meta.auteur || meta.author || "Ruben";
+}
+
 function findIngredientLists(article) {
   const lists = [];
   article.querySelectorAll("h2, h3").forEach((heading) => {
@@ -203,7 +207,7 @@ function renderMenu(items) {
     const link = document.createElement("a");
     link.href = `#/recept/${item.id}`;
     link.dataset.id = item.id;
-    link.innerHTML = `${item.title}<span class="file">${item.file}</span>`;
+    link.innerHTML = `${item.title}<span class="file">${item.author}</span>`;
     if (item.id === activeId) {
       link.classList.add("active");
     }
@@ -401,8 +405,9 @@ fetch("recepten/index.json")
             const title = extractTitle(parsed.body, id);
             const servings = getServings(parsed.meta);
             const servingsEnabled = getServingsEnabled(parsed.meta);
+            const author = getAuthor(parsed.meta);
             cache.set(id, parsed);
-            return { id, title, file, servings, servingsEnabled };
+            return { id, title, file, servings, servingsEnabled, author };
           })
       )
     );
