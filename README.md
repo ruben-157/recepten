@@ -29,6 +29,15 @@ porties_aanpasbaar: nee
 # Titel
 ```
 
+Je kunt ook een auteur tonen in het menu met `auteur:` (default is "Ruben"):
+
+```
+---
+auteur: Ruben
+---
+# Titel
+```
+
 Zet de ingredienten in een lijst onder de kop `## Ingredienten` of `## Ingrediënten`. De eerste hoeveelheid op elke regel wordt automatisch geschaald wanneer je het portie-aantal aanpast.
 
 Voorbeelden:

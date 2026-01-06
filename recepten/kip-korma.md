@@ -2,7 +2,9 @@
 porties: 4
 ---
 
-# Kip Korma
+# Kip korma
+
+Romige, kruidige curry met malse kip en een zachte notensmaak.
 
 ## Ingredienten
 
@@ -21,14 +23,18 @@ porties: 4
 - Zout en peper naar smaak
 - Verse koriander, gehakt voor garnering
 
-## Stappenplan
+## Bereidingswijze
 
-1. Verhit de olie in een pan op middelhoog vuur en voeg de ui, knoflook en gember toe. Bak ze tot de ui glazig is.
-2. Voeg de gemalen cashewnoten toe en bak ze kort mee.
-3. Voeg de kipstukjes toe en bak ze tot ze goudbruin zijn.
-4. Voeg alle specerijen toe (komijnpoeder, kerriepoeder, korianderpoeder, kurkumapoeder, zout en peper) en roer goed.
-5. Voeg de kokosmelk toe en roer opnieuw goed.
-6. Laat het mengsel ongeveer 10 minuten sudderen op laag vuur, totdat de kip gaar is en de saus iets dikker is geworden.
-7. Voeg de yoghurt toe en roer voorzichtig door het mengsel, zodat de yoghurt goed opgenomen wordt.
-8. Proef en breng op smaak met extra zout en peper indien nodig.
-9. Serveer het gerecht in kommen, garneer met verse koriander en serveer met rijst, naanbrood of roti.
+1. Verhit de olie in een pan op middelhoog vuur en bak ui, knoflook en gember tot de ui glazig is.
+2. Voeg de gemalen cashewnoten toe en bak 1 minuut mee.
+3. Voeg de kip toe en bak tot de stukjes goudbruin zijn.
+4. Roer de specerijen erdoor en bak kort tot ze geuren.
+5. Voeg de kokosmelk toe en laat 10 minuten zachtjes pruttelen.
+6. Zet het vuur laag en roer de yoghurt erdoor tot een romige saus.
+7. Breng op smaak met zout en peper en garneer met koriander.
+
+> Tip: laat de yoghurt op kamertemperatuur komen om schiften te voorkomen.
+
+> Tip: rooster de specerijen kort in de pan voor een dieper aroma.
+
+> Tip: maal cashewnoten fijn in een blender voor een extra gladde saus.
