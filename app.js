@@ -3,6 +3,7 @@ const recipeList = document.getElementById("recipeList");
 const searchInput = document.getElementById("searchInput");
 const sidebar = document.getElementById("sidebar");
 const sidebarToggle = document.getElementById("sidebarToggle");
+const sidebarClose = document.getElementById("sidebarClose");
 
 const cache = new Map();
 const servingsState = new Map();
@@ -373,6 +374,13 @@ sidebarToggle.addEventListener("click", () => {
   const isOpen = sidebar.classList.toggle("open");
   sidebarToggle.setAttribute("aria-expanded", String(isOpen));
 });
+
+if (sidebarClose) {
+  sidebarClose.addEventListener("click", () => {
+    sidebar.classList.remove("open");
+    sidebarToggle.setAttribute("aria-expanded", "false");
+  });
+}
 
 searchInput.addEventListener("input", applyFilter);
 window.addEventListener("hashchange", handleRoute);

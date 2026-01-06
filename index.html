@@ -12,8 +12,8 @@
       <aside class="sidebar" id="sidebar">
         <div class="sidebar-header">
           <h1>Recepten</h1>
-          <button class="sidebar-toggle" id="sidebarToggle" type="button" aria-expanded="false" aria-controls="sidebar">
-            Menu
+          <button class="sidebar-close" id="sidebarClose" type="button" aria-label="Sluit menu">
+            Sluit
           </button>
         </div>
         <div class="search">
@@ -25,6 +25,12 @@
       </aside>
 
       <main class="content" id="content">
+        <header class="mobile-bar">
+          <button class="sidebar-toggle" id="sidebarToggle" type="button" aria-expanded="false" aria-controls="sidebar">
+            Menu
+          </button>
+          <span class="mobile-title">Recepten</span>
+        </header>
         <div class="content-inner" id="contentInner">
           <p class="muted">Kies een recept.</p>
         </div>
