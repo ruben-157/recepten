@@ -162,7 +162,7 @@ body {
 }
 
 .content-inner {
-  max-width: 760px;
+  width: 100%;
   background: var(--paper);
   padding: var(--space-6);
   border-radius: calc(var(--radius) + 6px);
