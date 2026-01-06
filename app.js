@@ -96,6 +96,20 @@ function formatQuantity(value) {
   return rounded.toString().replace(".", ",");
 }
 
+function parseBoolean(value) {
+  if (value === undefined || value === null) {
+    return null;
+  }
+  const normalized = String(value).trim().toLowerCase();
+  if (["false", "no", "nee", "0", "off"].includes(normalized)) {
+    return false;
+  }
+  if (["true", "yes", "ja", "1", "on"].includes(normalized)) {
+    return true;
+  }
+  return null;
+}
+
 function getServings(meta) {
   const raw = meta.porties || meta.servings;
   if (!raw) {
@@ -103,6 +117,12 @@ function getServings(meta) {
   }
   const match = raw.match(/(\d+(?:[.,]\d+)?)/);
   return match ? parseNumber(match[1]) : null;
+}
+
+function getServingsEnabled(meta) {
+  const raw = meta.porties_aanpasbaar || meta.servings_adjustable || meta["servings-adjustable"];
+  const parsed = parseBoolean(raw);
+  return parsed !== null ? parsed : true;
 }
 
 function findIngredientLists(article) {
@@ -227,9 +247,11 @@ function renderRecipe(id) {
 
   const cached = cache.get(id);
   const baseServings = recipe.servings;
+  const servingsEnabled = recipe.servingsEnabled;
+  const showServings = baseServings && servingsEnabled;
   const currentServings = servingsState.get(id) || baseServings;
   if (cached) {
-    const header = baseServings
+    const header = showServings
       ? `
         <div class="recipe-meta">
           <div class="servings-control">
@@ -244,7 +266,7 @@ function renderRecipe(id) {
       : "";
     setContent(`${header}<article class="markdown-body">${md.render(cached.body)}</article>`);
     const article = contentInner.querySelector(".markdown-body");
-    if (article && baseServings) {
+    if (article && showServings) {
       applyServingsScale(article, baseServings, currentServings);
       const control = contentInner.querySelector(".servings-control");
       const input = control.querySelector("input");
@@ -283,7 +305,7 @@ function renderRecipe(id) {
     .then((text) => {
       const parsed = parseFrontmatter(text);
       cache.set(id, parsed);
-      const header = baseServings
+      const header = showServings
         ? `
           <div class="recipe-meta">
             <div class="servings-control">
@@ -298,7 +320,7 @@ function renderRecipe(id) {
         : "";
       setContent(`${header}<article class="markdown-body">${md.render(parsed.body)}</article>`);
       const article = contentInner.querySelector(".markdown-body");
-      if (article && baseServings) {
+      if (article && showServings) {
         applyServingsScale(article, baseServings, currentServings);
         const control = contentInner.querySelector(".servings-control");
         const input = control.querySelector("input");
@@ -380,8 +402,9 @@ fetch("recepten/index.json")
             const id = file.replace(/\.md$/i, "");
             const title = extractTitle(parsed.body, id);
             const servings = getServings(parsed.meta);
+            const servingsEnabled = getServingsEnabled(parsed.meta);
             cache.set(id, parsed);
-            return { id, title, file, servings };
+            return { id, title, file, servings, servingsEnabled };
           })
       )
     );

@@ -19,6 +19,16 @@ porties: 4
 # Titel
 ```
 
+Wil je de porties-aanpasser verbergen terwijl je wel porties opgeeft, zet dan `porties_aanpasbaar: nee`:
+
+```
+---
+porties: 4
+porties_aanpasbaar: nee
+---
+# Titel
+```
+
 Zet de ingredienten in een lijst onder de kop `## Ingredienten` of `## Ingrediënten`. De eerste hoeveelheid op elke regel wordt automatisch geschaald wanneer je het portie-aantal aanpast.
 
 Voorbeelden:

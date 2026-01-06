@@ -1,7 +1,3 @@
----
-porties: 10
----
-
 # Appeltaart met dunne appelschijfjes en knapperige karamellaag
 
 Patisserie-waardige appeltaart zonder blindbakken, met strak opgebouwde lagen en een krokante karamellaag.
