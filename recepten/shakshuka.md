@@ -4,7 +4,7 @@ porties: 4
 
 # Shakshuka
 
-Kruidige tomatensaus met gepocheerde eieren, ideaal voor ontbijt of avondeten.
+Kruidige tomatensaus met gepocheerde eieren.
 
 ## Ingredienten
 
@@ -24,16 +24,17 @@ Kruidige tomatensaus met gepocheerde eieren, ideaal voor ontbijt of avondeten.
 
 ## Bereidingswijze
 
-1. Verhit olijfolie in een brede pan en bak ui en paprika 5 minuten tot ze zacht zijn.
-2. Voeg knoflook, komijn, paprikapoeder en chilipoeder toe en bak 1 minuut mee.
-3. Roer tomatenpuree en tomatenblokjes erdoor en laat 10 tot 15 minuten sudderen tot de saus indikt.
-4. Breng op smaak met zout en peper.
-5. Maak kuiltjes in de saus en breek de eieren erin.
-6. Dek af en laat 5 tot 7 minuten garen tot het eiwit net gestold is.
-7. Garneer met kruiden en eventueel feta.
+1. Verhit de olijfolie in een koekenpan op middelhoog vuur.
+2. Bak de ui en paprika 5 minuten tot ze zacht zijn.
+3. Voeg knoflook, komijn, paprikapoeder en chilipoeder toe en bak 1 minuut mee.
+4. Roer de tomatenpuree en tomatenblokjes erdoor en laat 10-15 minuten sudderen tot de saus indikt.
+5. Breng op smaak met zout en peper.
+6. Maak 4 kuiltjes in de saus en breek de eieren erin.
+7. Dek af en laat 5-7 minuten garen tot het eiwit gestold is maar de dooier nog zacht.
+8. Bestrooi met peterselie of koriander en eventueel feta.
 
-> Tip: gebruik een pan met dikke bodem voor een gelijkmatige, zachte suddering.
+Serveer met: warme pita, brood of een frisse salade.
 
-> Tip: laat de eieren 10 minuten op kamertemperatuur komen voor gelijkmatige garing.
+> Tip: gebruik een deksel zodat de eieren gelijkmatig garen.
 
 > Tip: voeg een scheutje water toe als de saus te snel indikt.

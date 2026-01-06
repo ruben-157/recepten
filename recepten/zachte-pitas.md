@@ -4,7 +4,7 @@ porties: 5
 
 # Zachte pita's
 
-Luchtige pita's met een zachte binnenkant en lichte korst.
+Zachte pita's, perfect om te vullen.
 
 ## Ingredienten
 
@@ -17,16 +17,18 @@ Luchtige pita's met een zachte binnenkant en lichte korst.
 
 ## Bereidingswijze
 
-1. Meng water, gist en suiker en laat 5 tot 10 minuten staan tot het schuimt.
-2. Doe bloem en zout in een kom, voeg het gistmengsel en de olie toe en kneed 8 tot 10 minuten tot een soepel deeg.
-3. Dek af en laat 1 uur rijzen tot het deeg verdubbeld is.
-4. Verdeel in 5 bolletjes en rol uit tot cirkels van 5 mm dik.
-5. Laat 15 tot 20 minuten rusten.
-6. Bak in een voorverwarmde oven op 230 C in 4 tot 5 minuten op een hete bakplaat, of bak in een droge pan 1 tot 2 minuten per kant.
-7. Dek de pita's direct af met een schone theedoek om ze zacht te houden.
+1. Gist activeren: Meng het lauwwarme water met de gist en suiker. Laat 5-10 minuten staan tot het begint te schuimen.
+2. Deeg maken: Doe de bloem en zout in een kom. Voeg het gistmengsel en olijfolie toe en kneed 8-10 minuten tot een soepel, elastisch deeg.
+3. Laten rijzen: Dek af met een vochtige doek en laat 1 uur rijzen tot het verdubbeld is.
+4. Vormen: Verdeel het deeg in 5 gelijke bolletjes. Rol elk bolletje uit tot een cirkel van 5 mm dik.
+5. Tweede rijzing: Laat de uitgerolde pita's 15-20 minuten rusten.
+6. Bakken:
+   - In de oven: Verwarm voor op 230 C en bak op een hete bakplaat of pizzasteen 4-5 minuten tot ze opbollen.
+   - In de pan: Verhit een droge pan op middelhoog vuur, bak elke pita 1-2 minuten per kant tot ze opzwellen.
+7. Zacht houden: Haal ze direct uit de oven of pan en dek af met een schone theedoek zodat ze zacht blijven.
 
-> Tip: gebruik een hete bakplaat of pizzasteen voor een betere ovenrijs.
+Perfect voor shakshuka, hummus of als gevuld broodje!
 
-> Tip: dek het deeg tijdens het uitrollen af om uitdrogen te voorkomen.
+> Tip: houd het deeg afgedekt tijdens het uitrollen zodat het niet uitdroogt.
 
 > Tip: laat de pita's na het bakken 5 minuten stomen in de theedoek.

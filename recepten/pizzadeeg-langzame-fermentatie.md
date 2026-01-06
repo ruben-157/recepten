@@ -4,12 +4,12 @@ porties: 6
 
 # Pizzadeeg met langzame fermentatie
 
-Elastisch deeg met diepe smaak door een lange, koude rijs.
+Voor 6 bollen van ongeveer 260 g.
 
 ## Ingredienten
 
 - 940 g bloem
-- 565 g water (550 g voor autolyse, 15 g voor gistoplossing)
+- 565 g water (550 g voor de autolyse, 15 g voor de gistoplossing)
 - 9,4 g suiker
 - 2,4 g droge gist
 - 28 g olie
@@ -17,19 +17,52 @@ Elastisch deeg met diepe smaak door een lange, koude rijs.
 
 ## Bereidingswijze
 
-1. Meng de bloem met 550 g water tot alles net bevochtigd is. Dek af en laat 30 minuten rusten.
-2. Meng de gist en suiker met 15 g water en laat 5 minuten staan tot het schuimt.
-3. Voeg gistmengsel, olie en zout toe en kneed 8 tot 10 minuten tot het deeg soepel is.
-4. Laat het deeg 1 tot 2 uur rijzen op kamertemperatuur tot ongeveer 50 procent toename.
-5. Verdeel in 6 bollen van circa 260 g en bol strak op.
-6. Laat de bollen minimaal 24 uur koud rijzen in de koelkast, bij voorkeur 48 tot 72 uur.
-7. Haal de bollen 2 tot 3 uur voor het bakken uit de koelkast.
-8. Verwarm de oven voor op 250 C met pizzasteen of bakstaal.
-9. Vorm de pizza door het deeg rustig uit te drukken en uit te rekken.
-10. Beleg en bak 8 tot 12 minuten tot goudbruin en krokant.
+1. **Autolyse (30 min)**: Meng de bloem met 550 g water in een grote kom tot alle bloem net is bevochtigd. Dek af en laat 30 minuten rusten.
 
-> Tip: maak je handen licht nat of gebruik rijstmeel om plakken tijdens het vormen te voorkomen.
+   _Tip_: Dit helpt de glutenontwikkeling en maakt het deeg soepeler.
 
-> Tip: gebruik een afgesloten bak voor de koude rijs om uitdroging van het deeg te vermijden.
+2. **Gist activeren (5 min)**: Meng in een klein kommetje de gist en suiker met 15 g water (kamertemperatuur). Laat 5 minuten staan tot het begint te schuimen.
 
-> Tip: laat het deeg niet te warm worden voor het vormen; koel deeg is makkelijker te hanteren.
+   _Tip_: Gebruik geen te warm water om de gist actief te houden.
+
+3. **Deeg mengen en kneden (10 min)**: Voeg na de autolyse de gistoplossing, olie en zout toe. Kneed het deeg 10 minuten tot het soepel en elastisch is.
+
+   _Tip_: Bestrooi eerst met zout zodat het niet direct in contact komt met de gist.
+
+   Optie: Gebruik de stretch & fold-methode en laat het deeg tussendoor rusten.
+
+4. **Eerste rijs (1-2 uur op kamertemperatuur)**: Vorm het deeg tot een bal en dek af met plasticfolie. Laat 1 tot 2 uur rijzen op kamertemperatuur (20-22 C) tot het ongeveer 50% in volume is toegenomen.
+
+   _Tip_: Een langzamere eerste rijs verbetert de gluten en de smaak.
+
+Verdelen en koude fermentatie.
+
+5. **Verdelen en opbollen**: Verdeel het deeg in 6 gelijke porties van ongeveer 260 g. Vorm elk stuk tot een strak bolletje.
+
+   _Tip_: Gebruik een weegschaal voor gelijke porties.
+
+6. **Koude fermentatie (minimaal 24-72 uur in de koelkast)**: Plaats de deegbolletjes in licht ingevette bakkommen of op een bakplaat. Dek ze goed af en zet ze in de koelkast bij 4-6 C voor minimaal 24 uur, idealiter 48-72 uur.
+
+   _Tip_: Hoe langer de fermentatie, hoe dieper de smaak en beter de structuur.
+
+Voorbereiden op het bakken.
+
+7. **Deeg op kamertemperatuur laten komen (2-3 uur voor gebruik)**: Haal de deegbolletjes 2-3 uur voor het bakken uit de koelkast.
+
+   _Tip_: Dit voorkomt scheuren bij het uitrekken van het deeg.
+
+8. **Oven voorverwarmen (250 C of hoger)**: Verwarm de oven voor op 250 C (of zo heet mogelijk) met een pizzasteen of bakstaal.
+
+   _Tip_: Een hete ondergrond zorgt voor een knapperige korst.
+
+9. **Pizza vormen**: Bestuif het werkblad licht met bloem. Vorm elk bolletje voorzichtig tot een pizzabodem door het uit te rekken.
+
+   _Tip_: Werk voorzichtig en bewaar de luchtbellen voor een luchtige korst.
+
+10. **Beleggen en bakken (8-12 min)**: Beleg de pizza met je favoriete ingredienten. Bak 8-12 minuten tot de korst goudbruin en knapperig is.
+
+Geniet van je zelfgemaakte pizza!
+
+> Tip: bewaar het deeg tijdens de koude rijs in een afgesloten bak om uitdroging te voorkomen.
+
+> Tip: laat het deeg na het opbollen 10 minuten ontspannen voor je het uitrekt.
