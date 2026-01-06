@@ -27,16 +27,6 @@ const md = window.markdownit({
 
 md.use(window.markdownitFootnote);
 md.use(window.markdownitTaskLists, { enabled: true });
-const anchorPlugin = window.markdownItAnchor || window.markdownitAnchor;
-if (anchorPlugin && anchorPlugin.permalink) {
-  md.use(anchorPlugin, {
-    permalink: anchorPlugin.permalink.linkInsideHeader({
-      symbol: "#",
-      placement: "after",
-      class: "anchor"
-    })
-  });
-}
 
 function setContent(html) {
   contentInner.innerHTML = html;
