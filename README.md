@@ -8,6 +8,25 @@ Een volledig client-side recepten site met HTML, CSS en JavaScript. Open `index.
 2. Voeg de bestandsnaam toe aan `recepten/index.json`.
 3. De eerste H1 (`# Titel`) wordt gebruikt als menu titel. Geen H1? Dan wordt de bestandsnaam gebruikt.
 
+### Porties en ingredienten schalen
+
+Gebruik YAML frontmatter bovenaan het recept om het basis aantal porties vast te leggen:
+
+```
+---
+porties: 4
+---
+# Titel
+```
+
+Zet de ingredienten in een lijst onder de kop `## Ingredienten` of `## Ingrediënten`. De eerste hoeveelheid op elke regel wordt automatisch geschaald wanneer je het portie-aantal aanpast.
+
+Voorbeelden:
+
+- `- 300 g pasta`
+- `- 2-3 eetlepels olijfolie`
+- `- Ongeveer 1,5 liter bouillon`
+
 Voorbeeld `recepten/index.json`:
 
 ```

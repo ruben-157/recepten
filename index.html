@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Recepten</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css" />
+  </head>
+  <body>
+    <div class="app" id="app">
+      <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+          <h1>Recepten</h1>
+          <button class="sidebar-toggle" id="sidebarToggle" type="button" aria-expanded="false" aria-controls="sidebar">
+            Menu
+          </button>
+        </div>
+        <div class="search">
+          <input id="searchInput" type="search" placeholder="Zoek recept of bestandsnaam" aria-label="Zoek recepten" />
+        </div>
+        <nav class="menu" aria-label="Recepten">
+          <ul id="recipeList"></ul>
+        </nav>
+      </aside>
+
+      <main class="content" id="content">
+        <div class="content-inner" id="contentInner">
+          <p class="muted">Kies een recept.</p>
+        </div>
+      </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/markdown-it@14.1.0/dist/markdown-it.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/markdown-it-anchor@8.6.7/dist/markdownItAnchor.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/markdown-it-footnote@4.0.0/dist/markdown-it-footnote.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/markdown-it-task-lists@2.1.1/dist/markdown-it-task-lists.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
