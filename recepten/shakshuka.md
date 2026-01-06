@@ -20,7 +20,7 @@ Kruidige tomatensaus met gepocheerde eieren.
 - Zout en peper naar smaak
 - 4 eieren
 - Verse peterselie of koriander, gehakt
-- Feta of geitenkaas (optioneel)
+- Feta (verplicht)
 
 ## Bereidingswijze
 
@@ -31,7 +31,8 @@ Kruidige tomatensaus met gepocheerde eieren.
 5. Breng op smaak met zout en peper.
 6. Maak 4 kuiltjes in de saus en breek de eieren erin.
 7. Dek af en laat 5-7 minuten garen tot het eiwit gestold is maar de dooier nog zacht.
-8. Bestrooi met peterselie of koriander en eventueel feta.
+8. Verkruimel de feta over de pan en laat 1-2 minuten zacht worden in de warmte.
+9. Bestrooi met peterselie of koriander.
 
 Serveer met: warme pita, brood of een frisse salade.
 
